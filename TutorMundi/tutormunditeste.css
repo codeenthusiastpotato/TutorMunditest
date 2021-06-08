@@ -1,0 +1,97 @@
+
+form header{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-family: WorkSans;
+    color: #000000;
+    letter-spacing: -1.25px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.stars input:not(:checked) ~ label:hover{
+    opacity:100%
+}
+
+.stars.text{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-family: WorkSans;
+    color: #000000;
+    letter-spacing: -1.25px;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.stars a {
+    opacity:30%;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.stars.disabled {
+    pointer-events: none;
+}
+
+.stars:hover a {
+    opacity: 100%;
+}
+
+.stars a:hover{
+    opacity: 100%;
+}
+
+.stars a:hover ~ a {
+    opacity: 30%;
+}
+
+.stars a.active{
+    opacity: 100%;
+}
+
+input#rate-1:checked ~ form header.before{
+    content:"Eu odiei😡";
+}
+
+input#rate-2:checked ~ form header.before{
+    content:"Não gostei😠";
+}
+
+input#rate-3:checked ~ form header.before{
+    content:"Meh achei okay😐";
+}
+
+input#rate-4:checked ~ form header.before{
+    content:"Eu gostei😊";
+}
+
+input#rate-5:checked ~ form header.before{
+    content:"Eu amei😍";
+}
+
+.Rectangle-5 {
+    width: 288px;
+    height: 115px;
+    margin: 12px 12px 60px 0;
+    padding: 11px 12px 60px;
+    border-radius: 4px;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .Faa-elogios-agrade {
+    width: 264px;
+    height: 44px;
+    opacity: 0.1;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.2px;
+    color: #000000;
+  }
